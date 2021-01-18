@@ -1,4 +1,5 @@
 import os
+import django_heroku
 from decouple import config, Csv
 import dj_database_url
 from django.core.wsgi import get_wsgi_application
